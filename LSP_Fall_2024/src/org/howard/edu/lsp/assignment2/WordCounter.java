@@ -22,7 +22,7 @@ public class WordCounter {
         // Map to help hold counts
         Map<String, Integer> wordCounts = new HashMap<>();
 
-        String fileName = "words.txt";
+        String fileName = "src/org/howard/edu/lsp/assignment2/words.txt";
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
             String line;
             while ((line = br.readLine()) != null) {
