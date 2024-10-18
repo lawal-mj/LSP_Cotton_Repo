@@ -21,7 +21,6 @@ public class Calculator {
 
     /**
      * adds two doubles
-     *
      * @param a first double
      * @param b second double
      * @return sum of both

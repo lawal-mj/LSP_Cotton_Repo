@@ -16,7 +16,7 @@ public class VotingMachine {
     private HashMap<String, Integer> candidates;
 
     /**
-     * the constrcutor to initialize voting machine
+     * the constrcutor to initalize the voting machine
      */
     public VotingMachine() {
         candidates = new HashMap<>();
@@ -44,7 +44,7 @@ public class VotingMachine {
     }
 
     /**
-     * This retusns a string representation of candidates and their votes with the format : "CandidateName: VoteCount"
+     * This retusns a string representation of candidates votes with the format : "CandidateName: VoteCount"
      *
      * @return a string with the candidates and their vote counts
      */

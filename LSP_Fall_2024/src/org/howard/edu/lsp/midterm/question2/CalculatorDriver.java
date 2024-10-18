@@ -10,7 +10,7 @@ public class CalculatorDriver {
         // two integers
         System.out.println(Calculator.sum(5, 10)); 
 
-        // two doubles
+        // doubles
         System.out.println(Calculator.sum(3.5, 7.8)); 
 
         // an array 
