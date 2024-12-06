@@ -4,14 +4,14 @@ package org.howard.edu.lsp.finalexam.question2;
      */
 public class RandomNumberClient {
     public static void main(String[] args) {
-       RandomNumberService srv = RandomNumberService.getInstance();
+       RandomNumberService service = RandomNumberService.getInstance();
        
        // use java random
-       srv.setStrategy(new JavaRandomNumberStrategy());
-       System.out.println("java random: " + srv.getRandomNumber());
+       service.setStrategy(new JavaRandomNumberStrategy());
+       System.out.println("java random: " + service.getRandomNumber());
 
        // use LCG
-       srv.setStrategy(new LinearCongruentialGeneratorStrategy());
-       System.out.println("lcg random: " + srv.getRandomNumber());
+       service.setStrategy(new LinearCongruentialGeneratorStrategy());
+       System.out.println("lcg random: " + service.getRandomNumber());
     }
 }

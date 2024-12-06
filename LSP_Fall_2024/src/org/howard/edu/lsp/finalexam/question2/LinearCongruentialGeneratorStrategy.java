@@ -1,7 +1,7 @@
 package org.howard.edu.lsp.finalexam.question2;
 
     /**
-     * Class that uses the LCG algorith to generate randomly
+     * Class that uses the LCG algorithm to generate randomly
      */
 public class LinearCongruentialGeneratorStrategy implements RandomNumberStrategy {
     long s; 
